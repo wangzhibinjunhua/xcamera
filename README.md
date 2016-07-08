@@ -1,3 +1,18 @@
+## 基于workerman框架 计划实现:
+- 1.android app之间视频传输
+- 2.android app拍摄视频传输到web页面
+> 计划来源: 想在家里放一个手机拍照,在外面可以通过app或者浏览器看宝宝视频,亲手做的事情显得更有意义
+
+### `2016-07-08 19:38:25`  Powered by `lib-x.com<wzb@lib-x.com>`
+
+
+
+
+
+
+
+
+
 # live-camera
 网络摄像头-基于HTML5+Canvas+Websocket+[Workerman](http://www.workerman.net)
 
