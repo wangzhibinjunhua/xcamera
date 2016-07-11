@@ -4,7 +4,7 @@
     <title>live cam 录像页面</title>
 </head>
 <body>
-    <video autoplay id="sourcevid" style="width:320;height:240px"></video>
+    <video autoplay id="sourcevid" style="width:640;height:480px"></video>
     <br>
     提示：最好用火狐测试，谷歌浏览器升级了安全策略，谷歌浏览器只能在https下才能利用html5打开摄像头。
 
@@ -12,11 +12,11 @@
 
     <script type="text/javascript" charset="utf-8">
 
-        var socket = new WebSocket("ws://"+document.domain+":8080");
+        var socket = new WebSocket("ws://"+"120.76.47.120"+":8080");
         var back = document.getElementById('output');
         var backcontext = back.getContext('2d');
         var video = document.getElementsByTagName('video')[0];
-        
+
         var success = function(stream){
             video.src = window.URL.createObjectURL(stream);
         }
